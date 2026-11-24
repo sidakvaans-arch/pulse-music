@@ -1,0 +1,32 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 50;
+ objects = {
+  A10000000000000000000001 = {isa = PBXProject; attributes = {LastUpgradeCheck = 1500;}; buildConfigurationList = A10000000000000000000010; compatibilityVersion = "Xcode 9.3"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A10000000000000000000002; productRefGroup = A10000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000005);};
+  A10000000000000000000002 = {isa = PBXGroup; children = (A10000000000000000000003, A10000000000000000000004); sourceTree = "<group>";};
+  A10000000000000000000003 = {isa = PBXGroup; children = (A10000000000000000000011,A10000000000000000000012,A10000000000000000000013,A10000000000000000000014,A10000000000000000000015); path = PulseMusic; sourceTree = "<group>";};
+  A10000000000000000000004 = {isa = PBXGroup; children = (A10000000000000000000016); name = Products; sourceTree = "<group>";};
+  A10000000000000000000005 = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000020; buildPhases = (A10000000000000000000006,A10000000000000000000007,A10000000000000000000008); buildRules = (); dependencies = (); name = PulseMusic; productName = PulseMusic; productReference = A10000000000000000000016; productType = "com.apple.product-type.application";};
+  A10000000000000000000006 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000031,A10000000000000000000032,A10000000000000000000033,A10000000000000000000034,A10000000000000000000035); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000007 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000008 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000010 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000021,A10000000000000000000022); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A10000000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>";};
+  A10000000000000000000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>";};
+  A10000000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>";};
+  A10000000000000000000014 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseConfiguration.swift; sourceTree = "<group>";};
+  A10000000000000000000015 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicModels.swift; sourceTree = "<group>";};
+  A10000000000000000000016 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseMusic.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  A10000000000000000000031 = {isa = PBXBuildFile; fileRef = A10000000000000000000011;};
+  A10000000000000000000032 = {isa = PBXBuildFile; fileRef = A10000000000000000000012;};
+  A10000000000000000000033 = {isa = PBXBuildFile; fileRef = A10000000000000000000013;};
+  A10000000000000000000034 = {isa = PBXBuildFile; fileRef = A10000000000000000000014;};
+  A10000000000000000000035 = {isa = PBXBuildFile; fileRef = A10000000000000000000015;};
+  A10000000000000000000021 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 12.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; PRODUCT_BUNDLE_IDENTIFIER = com.example.PulseMusic; INFOPLIST_FILE = PulseMusic/Info.plist; GENERATE_INFOPLIST_FILE = NO; CODE_SIGN_STYLE = Automatic;}; name = Debug;};
+  A10000000000000000000022 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 12.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; PRODUCT_BUNDLE_IDENTIFIER = com.example.PulseMusic; INFOPLIST_FILE = PulseMusic/Info.plist; GENERATE_INFOPLIST_FILE = NO; CODE_SIGN_STYLE = Automatic;}; name = Release;};
+  A10000000000000000000020 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000021,A10000000000000000000022); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+ };
+ rootObject = A10000000000000000000001;
+}
